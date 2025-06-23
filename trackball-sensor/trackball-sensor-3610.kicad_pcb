@@ -3225,7 +3225,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at -0.15 1.525 0)
+			(at -0.05 -1.35 0)
 			(layer "B.SilkS")
 			(uuid "555bde2a-dabe-4c95-9b50-0e428eeadf34")
 			(effects
@@ -4437,7 +4437,7 @@
 		)
 	)
 	(gr_text "3.3\nSCLK\nMOTION\nMISO\nCS\nGND"
-		(at 140.58 94.73 0)
+		(at 141.625 94.45 0)
 		(layer "B.SilkS")
 		(uuid "6c54d850-7e56-4a46-ae97-6a12104ac71b")
 		(effects
@@ -4448,8 +4448,20 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "REV0.2 - VINCENT FRANCO"
-		(at 115.6 110.8 270)
+	(gr_text "PIN1"
+		(at 132.625 104.8 180)
+		(layer "B.SilkS" knockout)
+		(uuid "9f9c706a-65c4-43c0-be30-bcec59d74e4c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "3610 REV0.3 - VINCENT FRANCO"
+		(at 115.475 113.175 270)
 		(layer "B.SilkS" knockout)
 		(uuid "e42c9908-f8d0-426a-87ef-6eee40e5b472")
 		(effects
@@ -4487,7 +4499,7 @@
 		(uuid "3f6fb2ce-fb4c-4d5a-8e2a-80a5abbf90b5")
 	)
 	(via
-		(at 133.15 105.95)
+		(at 133.45 106.275)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
